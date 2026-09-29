@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class BankAccount {
     double balance = 1000.0;
 
@@ -20,7 +19,8 @@ class BankAccount {
             balance -= amount;
             System.out.println("Please collect your cash.");
             System.out.println("Remaining Balance: ₹" + balance);
-        } else {
+        } else
+             {
             System.out.println("Insufficient balance!");
         }
     }
